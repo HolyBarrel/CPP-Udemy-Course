@@ -15,6 +15,8 @@ void printBoardLine(int COLS);
 
 void runGame();
 
+void initializeBoard(string board[ROWS][COLS]);
+
 void getUserInput(string board[ROWS][COLS]);
 
 void choosePlayer(bool xStarts);
@@ -87,11 +89,8 @@ void runGame()
 		<< "and 0 for player one to start with 'O'." << endl;
 	cin >> xStarts; 
 	choosePlayer(xStarts);
-	string board[3][3] = {
-	{" ", " ", " "},
-	{" ", " ", " "},
-	{" ", " ", " "}
-	};
+	string board[ROWS][COLS];
+	initializeBoard(board);
 
 	//While loop to continually prompt the players for placement of TIC TAC TOE pieces.
 	while (run)
@@ -111,6 +110,20 @@ void runGame()
 		alternateTurn();
 	}
 
+}
+
+/*
+* Initializes all spots of the board to empty strings (" ").
+*/
+void initializeBoard(string board[ROWS][COLS])
+{
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = 0; j < COLS; j++)
+		{
+			board[i][j] = " ";
+		}
+	}
 }
 
 /*
