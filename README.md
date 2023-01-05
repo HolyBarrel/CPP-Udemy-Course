@@ -1,0 +1,6 @@
+# CPP-Udemy-Course
+Projects done to complete the Udemy course: 'The Complete C++ Developer Course'.
+
+The Udemy course included several mini-projects and some larger projects. This repository contains the most comprehensive of the projects.
+The projects are structured in folders based on which of the sections in the Udemy course they belong to.
+
