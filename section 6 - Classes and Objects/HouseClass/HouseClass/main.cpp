@@ -12,10 +12,12 @@ int main()
 {
 	House myHouse;
 
+	myHouse.print();
+
 	myHouse.setColor("red");
 	myHouse.setNumStories(3);
 	myHouse.setNumWindows(30);
-	myHouse.printHouseData();
+	myHouse.print();
 
 	//printHouseData(myHouse); //Prev
 
