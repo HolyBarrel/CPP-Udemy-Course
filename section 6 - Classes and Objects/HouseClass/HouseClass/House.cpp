@@ -3,6 +3,26 @@
 #include <string>
 using namespace std; 
 
+House::House()
+{
+	this->numStories = 1;
+	this->numWindows = 4;
+	this->color = "white";
+}
+
+House::House(int numStories, int numWindows, string color)
+{
+	this->numStories = numStories;
+	this->numWindows = numWindows;
+	this->color = color;
+}
+
+House::~House() 
+{
+	cout << "The " << color << " house with " << numStories << " stories and "
+		<< numWindows << " windows is being destroyed!" << endl;
+}
+
 void House::setNumStories(int numStories)
 {
 	this->numStories = numStories;
