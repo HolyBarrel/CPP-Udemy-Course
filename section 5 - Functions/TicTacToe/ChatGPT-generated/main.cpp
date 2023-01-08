@@ -1,98 +1,86 @@
 //ALL CODE WRITTEN BY ChatGPT: https://chat.openai.com/chat
 #include <iostream>
+#include <array>
 
-const int ROWS = 3;
-const int COLS = 3;
+using namespace std;
 
-// Function prototypes
-void printBoard(char board[ROWS][COLS]);
-bool checkWin(char board[ROWS][COLS]);
-bool checkTie(char board[ROWS][COLS]);
+const int Rows = 3;
+const int Cols = 3;
 
-//ALL CODE WRITTEN BY ChatGPT: https://chat.openai.com/chat
-int main()
-{
-    char board[ROWS][COLS] = { {'1', '2', '3'}, 
-                               {'4', '5', '6'}, 
-                               {'7', '8', '9'} };
+array<array<char, Cols>, Rows> board;
 
-    int currentPlayer = 1;
-    char playerPiece = 'X';
+void initBoard() {
+  // Initialize all elements of the board to ' ' (empty space)
+  for (int i = 0; i < Rows; i++) {
+    for (int j = 0; j < Cols; j++) {
+      board[i][j] = ' ';
+    }
+  }
+}
+
+void printBoard() {
+  // Print the current state of the board
+  cout << "  0 1 2" << endl;
+  for (int i = 0; i < Rows; i++) {
+    cout << i << " ";
+    for (int j = 0; j < Cols; j++) {
+      cout << board[i][j] << " ";
+    }
+    cout << endl;
+  }
+}
+
+bool checkWin(char player) {
+  // Check if the player has won by checking all rows, columns, and diagonals
+  for (int i = 0; i < Rows; i++) {
+    // Check rows
+    if (board[i][0] == player && board[i][1] == player && board[i][2] == player) {
+      return true;
+    }
+    // Check columns
+    if (board[0][i] == player && board[1][i] == player && board[2][i] == player) {
+      return true;
+    }
+  }
+  // Check diagonals
+  if (board[0][0] == player && board[1][1] == player && board[2][2] == player) {
+    return true;
+  }
+  if (board[0][2] == player && board[1][1] == player && board[2][0] == player) {
+    return true;
+  }
+  return false;
+}
+
+int main() {
+  initBoard();
+  printBoard();
+
+  // Game loop
+  while (true) {
+    // Get input from player X
+    cout << "Player X, enter row and column separated by a space: ";
     int row, col;
-
-    while (true)
-    {
-        // Print the board
-        printBoard(board);
-
-        // Get input from the current player
-        std::cout << "Player " << currentPlayer << ", enter a row and column (1-3): ";
-        std::cin >> row >> col;
-
-        // Place the player's piece on the board
-        board[row-1][col-1] = playerPiece;
-
-        // Check if the current player has won the game
-        if (checkWin(board))
-        {
-            std::cout << "Player " << currentPlayer << " wins!\n";
-            break;
-        }
-
-        // Check if the game is a tie
-        if (checkTie(board))
-        {
-            std::cout << "It's a tie!\n";
-            break;
-        }
-
-        // Switch players
-        currentPlayer = (currentPlayer == 1) ? 2 : 1;
-        playerPiece = (playerPiece == 'X') ? 'O' : 'X';
+    cin >> row >> col;
+    board[row][col] = 'X';
+    printBoard();
+    if (checkWin('X')) {
+      cout << "Player X wins!" << endl;
+      break;
     }
 
-    return 0;
+    // Get input from player O
+    cout << "Player O, enter row and column separated by a space: ";
+    cin >> row >> col;
+    board[row][col] = 'O';
+    printBoard();
+    if (checkWin('O')) {
+      cout << "Player O wins!" << endl;
+      break;
+    }
+  }
+
+  return 0;
 }
-
-// Prints the current state of the game board
-void printBoard(char board[ROWS][COLS])
-{
-    std::cout << "\n";
-    for (int i = 0; i < ROWS; i++)
-    {
-        for (int j = 0; j < COLS; j++)
-        {
-            std::cout << board[i][j] << " ";
-        }
-        std::cout << "\n";
-    }
-    std::cout << "\n";
-}
-
-// Returns true if the current player has won the game
-bool checkWin(char board[ROWS][COLS])
-{
-    // Check for horizontal wins
-    for (int i = 0; i < ROWS; i++)
-    {
-        if (board[i][0] == board[i][1] && board[i][1] == board[i][2])
-        {
-            return true;
-        }
-    }
-
-    // Check for vertical wins
-    for (int i = 0; i < COLS; i++)
-    {
-        if (board[0][i] == board[1][i] && board[1][i] == board[2][i])
-        {
-            return true;
-        }
-    }
-
-    // Check for diagonal wins
-    if (board[0][0] == board[1][1] && board[1][1] == board[2
-                                                           
-    //HMM, first try did not generate all source code.
                                                            
 //ALL CODE WRITTEN BY ChatGPT: https://chat.openai.com/chat
