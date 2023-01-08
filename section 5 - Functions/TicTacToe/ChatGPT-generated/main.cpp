@@ -4,6 +4,12 @@
 
 using namespace std;
 
+/*
+Generated comment:
+'This code defines a 3x3 board as a 2D array of characters and provides functions for initializing the board,
+printing the current state of the board, and checking if a player has won. The main game loop'
+*/
+
 const int Rows = 3;
 const int Cols = 3;
 
