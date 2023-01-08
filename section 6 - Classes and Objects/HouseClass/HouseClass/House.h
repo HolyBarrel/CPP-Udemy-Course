@@ -9,6 +9,8 @@ class House {
 
 		House();
 
+		House(int numStories, int numWindows, string color);
+
 		~House();
 
 		void setNumStories(int numStories);
