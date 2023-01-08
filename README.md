@@ -6,3 +6,6 @@ The projects are structured in folders based on which of the sections in the Ude
 
 The github link to the professor of the course: 
 https://github.com/profjpbaugh/complete-cpp-developer-course 
+
+Github provided .gitignore-template: 
+https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
