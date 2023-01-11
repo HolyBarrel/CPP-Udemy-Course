@@ -7,6 +7,7 @@ int main()
 {
 	try
 	{
+
 		Person person1("Bob");
 		Person person2("Sally");
 		Person person3("");
@@ -22,6 +23,7 @@ int main()
 	{
 		cerr << err.what() << endl;
 	}
+
 
 	return 0;
 }
