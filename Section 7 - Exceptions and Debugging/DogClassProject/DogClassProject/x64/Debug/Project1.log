@@ -1,0 +1,5 @@
+﻿  Dog.cpp
+  main.cpp
+  Generating Code...
+C:\Users\Magnus Lutro Allison\source\repos\Project1\Project1\main.cpp(61): warning C4715: 'createDog': not all control paths return a value
+  Project1.vcxproj -> C:\Users\Magnus Lutro Allison\source\repos\Project1\x64\Debug\DogClassProject.exe
