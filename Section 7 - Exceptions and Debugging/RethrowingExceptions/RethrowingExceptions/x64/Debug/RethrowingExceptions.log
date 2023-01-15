@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Magnus Lutro Allison\source\repos\RethrowingExceptions\RethrowingExceptions\main.cpp(73,29): warning C4101: 'err': unreferenced local variable
+C:\Users\Magnus Lutro Allison\source\repos\RethrowingExceptions\RethrowingExceptions\main.cpp(77,33): warning C4101: 'err': unreferenced local variable
+  RethrowingExceptions.vcxproj -> C:\Users\Magnus Lutro Allison\source\repos\RethrowingExceptions\x64\Debug\RethrowingExceptions.exe
