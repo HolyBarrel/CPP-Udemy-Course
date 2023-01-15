@@ -54,7 +54,7 @@ Dog createDog(string breed)
 		Dog dog(breed);
 		return dog;
 	}
-	catch (runtime_error err)
+	catch (const runtime_error & err)
 	{
 		cerr << "The program failed with the message: " << err.what() << endl;
 	}
