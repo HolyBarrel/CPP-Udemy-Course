@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Magnus Lutro Allison\source\repos\GradeProject\GradeProject\main.cpp(44): warning C4715: 'getLetterGrade': not all control paths return a value
+  GradeProject.vcxproj -> C:\Users\Magnus Lutro Allison\source\repos\GradeProject\x64\Debug\GradeProject.exe
