@@ -2,45 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/github-repo/v17/Browse.VC.opendb
-/section 6 - Classes and Objects/HouseClass/.vs/HouseClass/v17/Browse.VC.opendb
-/section 6 - Classes and Objects/RectangleClass/.vs/RectangleClass/v17/Browse.VC.opendb
-
-﻿################################################################################
-# Source::https://github.com/github/gitignore
-################################################################################
-
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-/section 6 - Classes and Objects/BookClass/.vs/BookClass/v17/Browse.VC.opendb
-/.vs/cpp-repo/v17/Browse.VC.opendb
+/.vs/repo-netProg-current/v17/Browse.VC.opendb
