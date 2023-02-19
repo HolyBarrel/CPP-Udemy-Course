@@ -1,0 +1,6 @@
+Magnus is 20 years old.
+Jonas is 10 years old.
+Philip is 32 years old.
+Lavrans is 30 years old.
+Ole is 40 years old.
+Jacobi is 40 years old.
