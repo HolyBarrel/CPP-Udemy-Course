@@ -1,0 +1,64 @@
+
+Rectangle: 12.000000m long and 2.000000m wide. 
+	Area: 24.000000
+	Perimeter: 28.000000
+
+Rectangle: 10.000000m long and 4.000000m wide. 
+	Area: 40.000000
+	Perimeter: 28.000000
+
+Rectangle: 5.000000m long and 4.000000m wide. 
+	Area: 20.000000
+	Perimeter: 18.000000
+
+Rectangle: 6.000000m long and 8.000000m wide. 
+	Area: 48.000000
+	Perimeter: 28.000000
+
+Rectangle: 20.000000m long and 8.000000m wide. 
+	Area: 160.000000
+	Perimeter: 56.000000
+
+Rectangle: 10.000000m long and 6.000000m wide. 
+	Area: 60.000000
+	Perimeter: 32.000000
+
+Rectangle: 6.000000m long and 5.000000m wide. 
+	Area: 30.000000
+	Perimeter: 22.000000
+
+Rectangle: 5.000000m long and 5.000000m wide. 
+	Area: 25.000000
+	Perimeter: 20.000000
+
+Rectangle: 2.000000m long and 4.000000m wide. 
+	Area: 8.000000
+	Perimeter: 12.000000
+
+Rectangle: 9.000000m long and 1.000000m wide. 
+	Area: 9.000000
+	Perimeter: 20.000000
+
+Rectangle: 1.000000m long and 3.000000m wide. 
+	Area: 3.000000
+	Perimeter: 8.000000
+
+Rectangle: 2.000000m long and 7.000000m wide. 
+	Area: 14.000000
+	Perimeter: 18.000000
+
+Rectangle: 9.000000m long and 8.000000m wide. 
+	Area: 72.000000
+	Perimeter: 34.000000
+
+Rectangle: 12.000000m long and 12.000000m wide. 
+	Area: 144.000000
+	Perimeter: 48.000000
+
+Rectangle: 6.000000m long and 5.000000m wide. 
+	Area: 30.000000
+	Perimeter: 22.000000
+
+Rectangle: 10.000000m long and 11.000000m wide. 
+	Area: 110.000000
+	Perimeter: 42.000000
