@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\allismag\source\repos\WordDictionary\WordDictionary\Dictionary.h(42,25): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  WordDictionary.vcxproj -> C:\Users\allismag\source\repos\WordDictionary\x64\Debug\WordDictionary.exe
