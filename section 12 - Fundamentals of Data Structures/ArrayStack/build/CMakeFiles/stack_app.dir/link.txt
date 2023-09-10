@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++1y -Wall -Wextra CMakeFiles/stack_app.dir/main.cpp.o -o stack_app 

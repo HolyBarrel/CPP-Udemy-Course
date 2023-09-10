@@ -1,0 +1,3 @@
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ArrayStack/build/CMakeFiles/stack_app.dir
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ArrayStack/build/CMakeFiles/edit_cache.dir
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ArrayStack/build/CMakeFiles/rebuild_cache.dir
