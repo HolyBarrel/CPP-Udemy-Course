@@ -1,0 +1,3 @@
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ADTListAndArrayList/build/CMakeFiles/lists_examples.dir
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ADTListAndArrayList/build/CMakeFiles/edit_cache.dir
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ADTListAndArrayList/build/CMakeFiles/rebuild_cache.dir
