@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++1y -Wall -Wextra CMakeFiles/linked_list_app.dir/main.cpp.o -o linked_list_app 

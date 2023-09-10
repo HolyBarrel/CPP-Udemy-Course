@@ -1,0 +1,3 @@
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/LinkedListApp/build/CMakeFiles/linked_list_app.dir
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/LinkedListApp/build/CMakeFiles/edit_cache.dir
+/home/holybarrel/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/LinkedListApp/build/CMakeFiles/rebuild_cache.dir
