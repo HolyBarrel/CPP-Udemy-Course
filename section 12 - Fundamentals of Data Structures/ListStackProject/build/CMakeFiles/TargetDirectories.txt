@@ -1,0 +1,3 @@
+/home/oo/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ListStackProject/build/CMakeFiles/list_stack_app.dir
+/home/oo/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ListStackProject/build/CMakeFiles/edit_cache.dir
+/home/oo/CPP-Udemy-Course/section 12 - Fundamentals of Data Structures/ListStackProject/build/CMakeFiles/rebuild_cache.dir
